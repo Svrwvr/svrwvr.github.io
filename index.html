@@ -18,13 +18,7 @@
             <div class="container px-4 mx-auto flex flex-wrap items-center justify-between">
                 <div class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
                     <a class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase" style="color: #F7444E;">Profile</a>
-                    <button
-                        class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
-                        type="button"
-                        onclick="a('example-collapse-navbar')"
-                    >
-                        <i class="text-white fas fa-bars"></i>
-                    </button>
+                    
                 </div>
                 <div class="lg:flex flex-grow items-center bg-white lg:bg-transparent lg:shadow-none hidden" id="example-collapse-navbar">
                     <ul class="flex flex-col lg:flex-row list-none lg:ml-auto">
@@ -132,12 +126,16 @@
                                 </div>
                             </div>
                             
-                            <div class="py-10 border-t border-gray-300 text-center">
-                                <div class="flex flex-wrap justify-center">
-                                    <div class="w-full lg:w-9/12 px-4"></div>
-                                </div>
-                            </div>
 
+
+                            <div id="content-desktop">
+                                <div class="py-10 border-t border-gray-300 text-center">
+                                    <div class="flex flex-wrap justify-center">
+                                        <div class="w-full lg:w-9/12 px-4"></div>
+                                    </div>
+                                </div>
+                                
+                                
                             <div class="language">
 
                                 <table role="table">
@@ -167,12 +165,11 @@
                                     </tr>
                                 </tbody>
                                   </table>
-                                  
-                                
                     
                         </div>
 
-                        </div>
+
+                    </div>
                         
                             <div class="mt-10 py-10 border-t border-gray-300 text-center">
                                 <div class="flex flex-wrap justify-center">
@@ -374,6 +371,6 @@
             document.getElementById(collapseID).classList.toggle("hidden");
             document.getElementById(collapseID).classList.toggle("block");
         }
-    </script><!--
+    </script>
     <script language="JavaScript"> document.addEventListener("contextmenu", function(e){ e.preventDefault(); }, false); </script>
---></html>
+</html>

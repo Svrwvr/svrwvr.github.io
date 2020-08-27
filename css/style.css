@@ -294,11 +294,6 @@ table {
     table-layout: fixed;
   }
   
-  table caption {
-    font-size: 1.5em;
-    margin: .5em 0 .75em;
-  }
-  
   table tr {
     background-color: #f8f8f8;
     border: 1px solid #ddd;
@@ -320,36 +315,19 @@ table {
     text-transform: uppercase;
   }
   
-@media (max-width: 768px){
 
-    .language{
-        width: 100%;
-    }
-    th{
+@media screen and (max-width: 768px) {
+
+
+    #content-desktop{
         display: none;
     }
-    td{
-        display: block;
+    .language{
+        display: none;
     }
-    td:first-child{
-        padding-top:.5rem;
+    table{
+        display: none;
     }
-    td:last-child{
-        padding-bottom:.5rem;
-    }
-    td::before{
-        content: attr(data-th) ": ";
-        font-weight: bold;
-        width: 6.5em;
-        display: inline-block;
-    }
-
-
-
-
-
-
-
 }
 
 
@@ -416,23 +394,6 @@ width: 100%;
     width: 100%;
 }
 
-@media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-    #navbar{
-        display: none;
-    }
-    #outmit{
-        width: 100%;
-    }
-    #outmit .inmit{
-        width: 100%;
-        height: auto;
-        display: inline;
-    }
-    #outmit .inmit p{
-        font-size: 16px;
-    }
-  }
 
 
 /*======== rating =============*/
