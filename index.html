@@ -140,29 +140,34 @@
 
                             <div class="language">
 
-                                <table>
-                                    <tr>
-                                      <th>Language</th>
-                                      <th>Level</th>
-                                      <th>Understanding</th>
-                                      <th>Speaking</th>
-                                      <th>Writing</th>
+                                <table role="table">
+                                    <thead role="rowgroup">
+                                    <tr role="row">
+                                      <th role="columnheader">Language</th>
+                                      <th role="columnheader">Level</th>
+                                      <th role="columnheader">Understanding</th>
+                                      <th role="columnheader">Speaking</th>
+                                      <th role="columnheader">Writing</th>
                                     </tr>
-                                    <tr>
-                                        <td>Kurdish</td>
-                                        <td>native speaker</td>
-                                        <td><div class="star-ratings-sprite"><span style="width:100%" class="star-ratings-sprite-rating"></span></div></td>
-                                        <td><div class="star-ratings-sprite"><span style="width:100%" class="star-ratings-sprite-rating"></span></div></td>
-                                        <td><div class="star-ratings-sprite"><span style="width:100%" class="star-ratings-sprite-rating"></span></div></td>
+                                </thead>
+                                <tbody role="rowgroup">
+                                    <tr role="row">
+                                        <td role="cell">Kurdish</td>
+                                        <td role="cell">native speaker</td>
+                                        <td role="cell"><div class="star-ratings-sprite"><span style="width:100%" class="star-ratings-sprite-rating"></span></div></td>
+                                        <td role="cell"><div class="star-ratings-sprite"><span style="width:100%" class="star-ratings-sprite-rating"></span></div></td>
+                                        <td role="cell"><div class="star-ratings-sprite"><span style="width:100%" class="star-ratings-sprite-rating"></span></div></td>
                                       </tr>
-                                    <tr>
-                                      <td>English</td>
-                                      <td>Intermediate</td>
-                                      <td><div class="star-ratings-sprite"><span style="width:60%" class="star-ratings-sprite-rating"></span></div></td>
-                                      <td><div class="star-ratings-sprite"><span style="width:50%" class="star-ratings-sprite-rating"></span></div></td>
-                                      <td><div class="star-ratings-sprite"><span style="width:50%" class="star-ratings-sprite-rating"></span></div></td>
+                                    <tr role="row">
+                                      <td role="cell">English</td>
+                                      <td role="cell">Intermediate</td>
+                                      <td role="cell"><div class="star-ratings-sprite"><span style="width:60%" class="star-ratings-sprite-rating"></span></div></td>
+                                      <td role="cell"><div class="star-ratings-sprite"><span style="width:50%" class="star-ratings-sprite-rating"></span></div></td>
+                                      <td role="cell"><div class="star-ratings-sprite"><span style="width:50%" class="star-ratings-sprite-rating"></span></div></td>
                                     </tr>
+                                </tbody>
                                   </table>
+                                  
                                 
                     
                         </div>
@@ -369,6 +374,6 @@
             document.getElementById(collapseID).classList.toggle("hidden");
             document.getElementById(collapseID).classList.toggle("block");
         }
-    </script>
+    </script><!--
     <script language="JavaScript"> document.addEventListener("contextmenu", function(e){ e.preventDefault(); }, false); </script>
-</html>
+--></html>
