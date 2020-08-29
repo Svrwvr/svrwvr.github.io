@@ -22,7 +22,7 @@ $(document).ready(function() {
 
     $('.chart1').easyPieChart({
         easing: 'easInOut',
-        barColor: '#F7444E',
+        barColor: '#fff',
         trackColor:false,
         scaleColor:false,
         lineWidht:4,

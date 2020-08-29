@@ -47,7 +47,6 @@ body{
 }
 .skills{
     text-align: center;
-    margin-left: 20px;
 
 }
 
@@ -100,7 +99,18 @@ body{
     line-height: 200px;
     font-size: 25px;
 }
-
+@media screen and (max-width:768px){
+    .chart1{
+        width: 100%;
+        height: auto;
+    }
+    .chart1 .percent {
+        font-size: 18px;
+    }
+    .language{
+        display: none;
+    }
+}
 
 
 
@@ -314,9 +324,10 @@ table {
   }
   
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
   table {
     border: 0;
+    display: none;
   }
 
   table caption {
